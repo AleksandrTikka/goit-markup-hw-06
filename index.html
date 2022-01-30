@@ -452,13 +452,16 @@
                     <textarea name="comment" id="user-comment" class="comment" cols="30" rows="10" placeholder="Введите текст"></textarea>
                 </div>
                 <div class="form-field-policy">
-                    <input type="checkbox" class="checkbox" name="policy" id="policy">
-                    <label for="policy" class="label-checkbox">
-                        <span class="policy-check">
-                            <svg class="icon-checkbox" width="16" height="15">
-                                <use href="./images/sprite.svg#icon-full-check"></use>
-                            </svg>Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> </label>
-                        </span>
+                    
+                        <input type="checkbox" class="checkbox" name="policy" id="policy-checkbox">
+                        <label for="policy-checkbox" class="label-checkbox">
+                        Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a>
+                        <span class="policy-check"></span>                    
+                        <svg class="icon-checkbox" width="16" height="15">
+                            <use href="./images/sprite.svg#icon-full-check"></use>
+                        </svg>                        
+                    </label>
+                        
                     </div>                       
                 <div class="wrapper-btn">               
                     <button type="submit" class="modal-send">Отправить</button>
