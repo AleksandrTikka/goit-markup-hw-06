@@ -203,7 +203,7 @@
     <!--Подвал страницы-->
     <footer class="footer">
         <div class="container footer-area">
-            <div class="column-first column">
+            <div class="column-address column">
                 <a href="/" class="logo">
                     <span>Web</span><span class="footer-logo">Studio</span>
                 </a>
@@ -215,7 +215,7 @@
                     </ul>
                 </address>
             </div>
-            <div class="column-second column">
+            <div class="column-subscribe column">
                 <h2 class="column-title">присоединяйтесь</h2>
                 <ul class="footer-social list">
                     <li class="item">
@@ -251,6 +251,17 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="column-mailing column">
+                <label for="mailing-user-mail" class="column-title">Подпишитесь на рассылку</label>
+                <div class="mailing-form">
+                    <input type="email" name="footer_mail" id="mailing-user-mail" placeholder="E-mail">
+                    <button type="submit" class="mailing-send">Подписаться
+                        <svg class="mailing-icon" width="24" height="24">
+                            <use href="images/sprite.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </div>
             </div>
         </div>
     
